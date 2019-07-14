@@ -1081,6 +1081,10 @@
         "version": "a6742e25ac12860727c22a379707e050a126c48c4dd98ddd795a3a33dd0a63c7",
         "signature": "a6742e25ac12860727c22a379707e050a126c48c4dd98ddd795a3a33dd0a63c7"
       },
+      "/users/andeladeveloper/todo/src/middlewares/auth.ts": {
+        "version": "a969d06b39304aeb816d1e8ff04246f9ef2f012ebe7c5f587b776dc4609fcba7",
+        "signature": "2ed35a27503b791180691283d066648bf27d539365e36b2ddd4b62edb8eb1e9e"
+      },
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
         "version": "267bc5069099a96c0e4c69c65090d44dc3e724a6991caa335c094edfe46796a5",
         "signature": "267bc5069099a96c0e4c69c65090d44dc3e724a6991caa335c094edfe46796a5"
@@ -1184,10 +1188,6 @@
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts": {
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
-      },
-      "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts": {
-        "version": "1301dc4b662ad92a8026465b775cacab4f764690c9d685ff5b6655d708d66de4",
-        "signature": "1d09ce972dec82daa3a9d9bb70496fb928551f102fec5e9703131a9c14443a93"
       },
       "/users/andeladeveloper/todo/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": {
         "version": "37350aa03991dfad308444531443272a47140d86cb0b0777832d21c62856ebd9",
@@ -2169,12 +2169,36 @@
         "version": "d8074ed44139d52c4b3b65d900b9407ec07ab1a949c06ca32d0bac00f23d4524",
         "signature": "c83790a048204cba096b4ac6c3a83d5641aff84a17a3eafd8e4a44ce3543e856"
       },
+      "/users/andeladeveloper/todo/src/project/dto/project.dto.ts": {
+        "version": "74399b479d9225a3d930e5eaccbeb216c5d59c36a831893955db195432c92635",
+        "signature": "d0062383f5b8389b2edd15b357f19e4c2c78890d5593c9106ea61d2c89e3c876"
+      },
+      "/users/andeladeveloper/todo/src/project/dto/index.ts": {
+        "version": "f17595b95647077ac4f77458e1e2df2430f19abfa49d704b476e668a822295b6",
+        "signature": "ec70a3922a1031635556873560c0dfde73de4cd5c5d7033356f9791a32ec8f41"
+      },
+      "/users/andeladeveloper/todo/src/project/project.service.ts": {
+        "version": "2de1abb8ad7977c74868372875c55f438463c1b02f6816f8b3bf9f367d5eb872",
+        "signature": "fe5218833ce5abc74558975c6fe32cae2ce7246dbb0367f5c45bda8ec062daf3"
+      },
+      "/users/andeladeveloper/todo/src/project/project.controller.ts": {
+        "version": "3b272ec79bb45d2fb28356579385aff83d0956270526ef366e516814c035da5f",
+        "signature": "03d8e7599a82bab7b58949530444d168817bec9b25592da41e7ee43f6d6da6a2"
+      },
+      "/users/andeladeveloper/todo/src/project/project.module.ts": {
+        "version": "dfab90a9d34f1265a567a8e3e85d5842ea4bd5aa39a87a02378fe8674163ea20",
+        "signature": "45c6b2036288a6f306c0884c5f0ed5ea8dc9560af06d46f5bfbe0f5d6fec39b3"
+      },
+      "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts": {
+        "version": "1301dc4b662ad92a8026465b775cacab4f764690c9d685ff5b6655d708d66de4",
+        "signature": "1d09ce972dec82daa3a9d9bb70496fb928551f102fec5e9703131a9c14443a93"
+      },
       "/users/andeladeveloper/todo/src/todos/todo.service.ts": {
         "version": "89ed3ef5804d031a9b5a7e4b2172f990122e9973f6666d222306722183826a4b",
         "signature": "021754181706d6ab91f6ad723180eb5142656c6472a4a8cdc6d76ddd4a53bc87"
       },
       "/users/andeladeveloper/todo/src/todos/todo.controller.ts": {
-        "version": "c828fe82e07ef3c52ad74b7aff81e520ca59cae50c7d49540739c2bac6bf6786",
+        "version": "f158ba0bf7e919085320bcc2f3147e7fc0c6b71508d492861d742084b5d48033",
         "signature": "87cf961872fafc590b1987e3df65020ff231ba3d1ff77268427369adb43c077f"
       },
       "/users/andeladeveloper/todo/src/todos/todo.module.ts": {
@@ -2238,8 +2262,8 @@
         "signature": "482b8f0d35a3d453500a15b6c6057c1e4c40baa4329b39da9e1026d8e1de4329"
       },
       "/users/andeladeveloper/todo/src/app.module.ts": {
-        "version": "9aedafa4cb7575187ea648374cd2fc4fc519d84ee33f72798fd56292cbec2862",
-        "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644"
+        "version": "0fef9db2cb475ede170f913fb9d5f720fb2a06630c7e120a06411289a1008d0c",
+        "signature": "9e55d69c2879e4c1f6039d177c0daf79a72435ac51ec7d4f46fc72e8b0c503d6"
       },
       "/users/andeladeveloper/todo/node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
         "version": "285fd4018f9de87c5972beb9133971c99212458bcfc317f1b3851adcc86d84b7",
@@ -4009,6 +4033,12 @@
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/andeladeveloper/todo/src/middlewares/auth.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
@@ -4140,11 +4170,6 @@
       ],
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/index.d.ts",
-        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
-        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts": [
-        "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -5825,6 +5850,47 @@
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/andeladeveloper/todo/src/project/dto/project.dto.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts",
+        "/users/andeladeveloper/todo/src/entity/todo/index.ts",
+        "/users/andeladeveloper/todo/src/entity/user/index.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/dto/index.ts": [
+        "/users/andeladeveloper/todo/src/project/dto/project.dto.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/project.service.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
+        "/users/andeladeveloper/todo/src/project/dto/index.ts",
+        "/users/andeladeveloper/todo/src/entity/project/index.ts",
+        "/users/andeladeveloper/todo/node_modules/typeorm/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/project.controller.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
+        "/users/andeladeveloper/todo/src/project/dto/index.ts",
+        "/users/andeladeveloper/todo/src/project/project.service.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/project.module.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
+        "/users/andeladeveloper/todo/src/project/project.controller.ts",
+        "/users/andeladeveloper/todo/src/project/project.service.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/andeladeveloper/todo/src/todos/todo.service.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
@@ -5940,6 +6006,8 @@
       ],
       "/users/andeladeveloper/todo/src/app.module.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
+        "/users/andeladeveloper/todo/src/middlewares/auth.ts",
+        "/users/andeladeveloper/todo/src/project/project.module.ts",
         "/users/andeladeveloper/todo/src/todos/todo.module.ts",
         "/users/andeladeveloper/todo/node_modules/@nestjs/typeorm/index.d.ts",
         "/users/andeladeveloper/todo/src/user/user.module.ts",
@@ -7771,6 +7839,10 @@
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/andeladeveloper/todo/src/middlewares/auth.ts": [
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts"
+      ],
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
@@ -9573,6 +9645,22 @@
       "/users/andeladeveloper/todo/src/entity/todo/index.ts": [
         "/users/andeladeveloper/todo/src/entity/project/index.ts"
       ],
+      "/users/andeladeveloper/todo/src/project/dto/project.dto.ts": [
+        "/users/andeladeveloper/todo/src/entity/user/index.ts",
+        "/users/andeladeveloper/todo/src/entity/todo/index.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/dto/index.ts": [
+        "/users/andeladeveloper/todo/src/project/dto/project.dto.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/project.service.ts": [
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
+        "/users/andeladeveloper/todo/src/entity/project/index.ts",
+        "/users/andeladeveloper/todo/src/project/dto/index.ts"
+      ],
+      "/users/andeladeveloper/todo/src/project/project.controller.ts": [
+        "/users/andeladeveloper/todo/src/project/dto/index.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts"
+      ],
       "/users/andeladeveloper/todo/src/todos/todo.service.ts": [
         "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts",
         "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts"
@@ -9642,6 +9730,9 @@
       "/users/andeladeveloper/todo/src/user/user.controller.ts": [
         "/users/andeladeveloper/todo/src/user/dto/index.ts",
         "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/app.module.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts"
       ],
       "/users/andeladeveloper/todo/node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
@@ -10128,6 +10219,7 @@
       "/users/andeladeveloper/todo/node_modules/@types/connect/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@types/body-parser/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
+      "/users/andeladeveloper/todo/src/middlewares/auth.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
@@ -10154,7 +10246,6 @@
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/dist/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts",
-      "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts",
       "/users/andeladeveloper/todo/node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts",
       "/users/andeladeveloper/todo/node_modules/typeorm/schema-builder/table/tablecolumn.d.ts",
       "/users/andeladeveloper/todo/node_modules/typeorm/common/objectliteral.d.ts",
@@ -10400,30 +10491,13 @@
       "/users/andeladeveloper/todo/src/entity/user/index.ts",
       "/users/andeladeveloper/todo/src/entity/project/index.ts",
       "/users/andeladeveloper/todo/src/entity/todo/index.ts",
+      "/users/andeladeveloper/todo/src/project/dto/project.dto.ts",
+      "/users/andeladeveloper/todo/src/project/dto/index.ts",
+      "/users/andeladeveloper/todo/src/project/project.service.ts",
+      "/users/andeladeveloper/todo/src/project/project.controller.ts",
+      "/users/andeladeveloper/todo/src/project/project.module.ts",
+      "/users/andeladeveloper/todo/src/todos/dto/todo.dto.ts",
       "/users/andeladeveloper/todo/src/todos/todo.service.ts",
-      [
-        "/users/andeladeveloper/todo/src/todos/todo.controller.ts",
-        [
-          {
-            "file": "/users/andeladeveloper/todo/src/todos/todo.controller.ts",
-            "start": 32,
-            "length": 5,
-            "messageText": "'Param' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          },
-          {
-            "file": "/users/andeladeveloper/todo/src/todos/todo.controller.ts",
-            "start": 45,
-            "length": 3,
-            "messageText": "'Put' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          }
-        ]
-      ],
       "/users/andeladeveloper/todo/src/todos/todo.module.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts",
@@ -10436,6 +10510,9 @@
       "/users/andeladeveloper/todo/src/user/dto/signup.dto.ts",
       "/users/andeladeveloper/todo/src/user/dto/login.dto.ts",
       "/users/andeladeveloper/todo/src/user/dto/index.ts",
+      "/users/andeladeveloper/todo/src/user/user.service.ts",
+      "/users/andeladeveloper/todo/src/user/user.controller.ts",
+      "/users/andeladeveloper/todo/src/user/user.module.ts",
       "/users/andeladeveloper/todo/src/app.module.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/core/adapters/index.d.ts",
@@ -10470,9 +10547,7 @@
       "/users/andeladeveloper/todo/node_modules/@types/json5/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@types/superagent/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@types/supertest/index.d.ts",
-      "/users/andeladeveloper/todo/src/user/user.service.ts",
-      "/users/andeladeveloper/todo/src/user/user.controller.ts",
-      "/users/andeladeveloper/todo/src/user/user.module.ts"
+      "/users/andeladeveloper/todo/src/todos/todo.controller.ts"
     ]
   },
   "version": "3.4.3"

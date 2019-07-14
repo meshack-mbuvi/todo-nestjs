@@ -1,5 +1,8 @@
 const NODE_ENV = process.env.NODE_ENV;
 const PASSWORD = process.env.PASSWORD;
+const INSTANCE = process.env.INSTANCE;
+const instance = `/cloudsql/${INSTANCE}`;
+
 let db = process.env.DB_TODO;
 
 if (NODE_ENV === 'test') {
@@ -9,9 +12,9 @@ if (NODE_ENV === 'test') {
 module.exports = {
   name: 'default',
   type: 'postgres',
-  host: 'localhost',
+  host: instance,
   port: 5432,
-  username: 'postgres',
+  username: 'todo-nest',
   password: PASSWORD,
   database: db,
   logging: false,

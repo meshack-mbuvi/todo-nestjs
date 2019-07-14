@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Put, Res } from '@nestjs/common';
+import { Body, Controller, Get, Post, Res } from '@nestjs/common';
 
 import { Response } from 'express';
 import { Todo } from './dto/todo.dto';
@@ -19,7 +19,7 @@ export class TodoController {
         title = '',
         isComplete = false,
         description = '',
-    } = body;
+      } = body;
 
     return TodoService.create({ title, isComplete, description}, res);
   }
