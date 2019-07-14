@@ -2213,17 +2213,25 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
+      "/users/andeladeveloper/todo/src/user/dto/signup.dto.ts": {
+        "version": "84337a981d06c437eb25af64741f23e3ce43b686ca147c46e77361ef87aa2cf2",
+        "signature": "199b889bc0ac27d35421ef73787f68f9c037189cbc7e9bd15ab37e214d26be8b"
+      },
+      "/users/andeladeveloper/todo/src/user/dto/login.dto.ts": {
+        "version": "06090f1fa9e9d84d939e1ba3cdd0e42e4dd869b8b64034da4564346a43ce9b08",
+        "signature": "551a1b52d1d830f86c57cbd50aacfe1f8dff2594bd4747543167c8f8c809427c"
+      },
       "/users/andeladeveloper/todo/src/user/dto/index.ts": {
-        "version": "89f4ba6219b54e841b0c92cf4423f00c81d6214ac35abc45f60677bb5f7c212c",
-        "signature": "7406908d29a5a37dbadfd5c9039fdf5c08a75587672edc2df380741ed5b5517c"
+        "version": "0aa53d25f4d759c93f14eba1dbb228cdf729067163117493e39d254169e7e364",
+        "signature": "ac57c07a68bd5b728588e3004e7d610c7006acead283b728c524f01b89575cf1"
       },
       "/users/andeladeveloper/todo/src/user/user.service.ts": {
-        "version": "65e09df25b11c1f316cbd385725ae9ba58b31d0453956f73fc827345ac99834b",
-        "signature": "b364509c2f1117363dcaf90a6171b526019d504af7dc7d0e1aaf0011e11b1206"
+        "version": "f3b544e4b60918e5061afebe0084edab2f591f49ee9c84c5e866bfab82f1ed6b",
+        "signature": "a8cb091e79606a3b6c860aa8d5c3b4183f96515a66534bb2d90dce8692aaacb0"
       },
       "/users/andeladeveloper/todo/src/user/user.controller.ts": {
-        "version": "a150060c824799822e09e8dd5b1d0264e99c93d62cad959248110ba1b732f191",
-        "signature": "3216930c14db82bc44c87122589c92c5a1d187f8fbebef52daef6b8045471447"
+        "version": "0526d153336a38be9ae8ac11a27fcf664f00660895f20ffb2b052c8df13359d4",
+        "signature": "e210b41aba1972eaa94786ceb23613b67d465e8ed1a434bf3dd70ba2dfe4eebe"
       },
       "/users/andeladeveloper/todo/src/user/user.module.ts": {
         "version": "814cad978934f161fee09b39c7d880cca171b6ce6295063f27ede3ecc07dc157",
@@ -5890,14 +5898,26 @@
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/andeladeveloper/todo/src/user/dto/index.ts": [
+      "/users/andeladeveloper/todo/src/user/dto/signup.dto.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/user/dto/login.dto.ts": [
+        "/users/andeladeveloper/todo/node_modules/@nestjs/swagger/index.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/andeladeveloper/todo/src/user/dto/index.ts": [
+        "/users/andeladeveloper/todo/src/user/dto/signup.dto.ts",
+        "/users/andeladeveloper/todo/src/user/dto/login.dto.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "/users/andeladeveloper/todo/src/user/user.service.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
         "/users/andeladeveloper/todo/src/user/dto/index.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
         "/users/andeladeveloper/todo/src/entity/user/index.ts",
         "/users/andeladeveloper/todo/node_modules/typeorm/index.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
@@ -5905,8 +5925,8 @@
       ],
       "/users/andeladeveloper/todo/src/user/user.controller.ts": [
         "/users/andeladeveloper/todo/node_modules/@nestjs/common/index.d.ts",
-        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
         "/users/andeladeveloper/todo/src/user/dto/index.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts",
         "/users/andeladeveloper/todo/src/user/user.service.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
@@ -9610,8 +9630,14 @@
         "/users/andeladeveloper/todo/node_modules/@types/node/util.d.ts",
         "/users/andeladeveloper/todo/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "/users/andeladeveloper/todo/src/user/dto/index.ts": [
+        "/users/andeladeveloper/todo/src/user/dto/signup.dto.ts",
+        "/users/andeladeveloper/todo/src/user/dto/login.dto.ts"
+      ],
       "/users/andeladeveloper/todo/src/user/user.service.ts": [
-        "/users/andeladeveloper/todo/src/user/dto/index.ts"
+        "/users/andeladeveloper/todo/node_modules/@types/express-serve-static-core/index.d.ts",
+        "/users/andeladeveloper/todo/src/user/dto/index.ts",
+        "/users/andeladeveloper/todo/node_modules/@types/express/index.d.ts"
       ],
       "/users/andeladeveloper/todo/src/user/user.controller.ts": [
         "/users/andeladeveloper/todo/src/user/dto/index.ts",
@@ -10372,6 +10398,7 @@
       "/users/andeladeveloper/todo/node_modules/typeorm/util/promiseutils.d.ts",
       "/users/andeladeveloper/todo/node_modules/typeorm/index.d.ts",
       "/users/andeladeveloper/todo/src/entity/user/index.ts",
+      "/users/andeladeveloper/todo/src/entity/project/index.ts",
       "/users/andeladeveloper/todo/src/entity/todo/index.ts",
       "/users/andeladeveloper/todo/src/todos/todo.service.ts",
       [
@@ -10406,45 +10433,9 @@
       "/users/andeladeveloper/todo/node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/typeorm/dist/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/typeorm/index.d.ts",
+      "/users/andeladeveloper/todo/src/user/dto/signup.dto.ts",
+      "/users/andeladeveloper/todo/src/user/dto/login.dto.ts",
       "/users/andeladeveloper/todo/src/user/dto/index.ts",
-      [
-        "/users/andeladeveloper/todo/src/user/user.service.ts",
-        [
-          {
-            "file": "/users/andeladeveloper/todo/src/user/user.service.ts",
-            "start": 196,
-            "length": 3,
-            "messageText": "'jwt' is declared but its value is never read.",
-            "category": 1,
-            "code": 6133,
-            "reportsUnnecessary": true
-          },
-          {
-            "file": "/users/andeladeveloper/todo/src/user/user.service.ts",
-            "start": 1379,
-            "length": 4,
-            "code": 2345,
-            "category": 1,
-            "messageText": {
-              "messageText": "Argument of type 'User' is not assignable to parameter of type 'DeepPartial<UserEntity>'.",
-              "category": 1,
-              "code": 2345,
-              "next": {
-                "messageText": "Types of property 'projects' are incompatible.",
-                "category": 1,
-                "code": 2326,
-                "next": {
-                  "messageText": "Type '{}' is missing the following properties from type 'DeepPartial<Project>[]': length, pop, push, concat, and 26 more.",
-                  "category": 1,
-                  "code": 2740
-                }
-              }
-            }
-          }
-        ]
-      ],
-      "/users/andeladeveloper/todo/src/user/user.controller.ts",
-      "/users/andeladeveloper/todo/src/user/user.module.ts",
       "/users/andeladeveloper/todo/src/app.module.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "/users/andeladeveloper/todo/node_modules/@nestjs/core/adapters/index.d.ts",
@@ -10479,7 +10470,9 @@
       "/users/andeladeveloper/todo/node_modules/@types/json5/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@types/superagent/index.d.ts",
       "/users/andeladeveloper/todo/node_modules/@types/supertest/index.d.ts",
-      "/users/andeladeveloper/todo/src/entity/project/index.ts"
+      "/users/andeladeveloper/todo/src/user/user.service.ts",
+      "/users/andeladeveloper/todo/src/user/user.controller.ts",
+      "/users/andeladeveloper/todo/src/user/user.module.ts"
     ]
   },
   "version": "3.4.3"
